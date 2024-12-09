@@ -10,7 +10,7 @@
 import SatelliteStats from './components/SatelliteStats.vue';
 import OrbitVisualizer from './components/OrbitVisualizer.vue';
 import TelemetryLogs from './components/TelemetryLogs.vue';
-import { getSatelliteData } from './services/api.js';
+import { getSatelliteData } from '../services/api.js';
 
 export default {
   data() {
